@@ -1,23 +1,38 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 
 export const Header = (props) => {
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const headerStyle = {
+    marginTop: isSmallScreen ? '65%' : '35%',
+    textAlign: 'center',
+    transform: 'translateY(-50%)',
+  };
+
   return (
-    <header id="header">
+    <header id="header page-scroll">
       <div className="intro">
         <div className="overlay">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
+              <div className="intro-text" style={headerStyle}>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
-                  <span></span>
                 </h1>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Ver más
-                </a>{" "}
+                <p>
+                  {props.data ? props.data.subtitle : ""}
+                </p>
               </div>
             </div>
           </div>

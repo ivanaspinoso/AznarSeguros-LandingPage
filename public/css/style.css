@@ -86,6 +86,8 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
+  vertical-align: middle;
+
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -206,17 +208,46 @@ a:focus,
 /* Header Section */
 .intro {
   display: table;
+  
   width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  height: 100vh; 
+  background: url(../img/fondoaznar.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
+.header-content {
+  display: table-cell;
+  text-align: center; 
+}
+
+.intro-text {
+  text-align: center;
+  color: white; /* Asegúrate de que el texto sea visible sobre el fondo */
+}
+#menu .navbar-header {
+  display: flex;
+  align-items: center; /* Alinea el contenido verticalmente */
+}
+
+#menu .navbar-header .navbar-brand img {
+  max-height: 100px; /* Ajusta el tamaño del logo */
+  margin-top: -30px; /* Ajusta este valor para mover el logo hacia arriba */
+  margin-right: 15px;}
+
+#menu .navbar-nav > li > a {
+  padding: 0px 10px; /* Ajusta el espacio para que coincida con el logo */
+  line-height: 50px; /* Asegúrate de que el texto esté alineado con el logo */
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
+  height: 100vh; /* Añade esta línea para que el header tenga al menos el tamaño de la pantalla */
+  padding: 90px 0;
+
+
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -226,10 +257,12 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  width: auto; 
+  text-align: center; 
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #DB4F4F;
 }
 .intro p {
   color: #fff;
@@ -238,15 +271,19 @@ a:focus,
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  
 }
 header .intro-text {
-  padding-top: 350px;
-  padding-bottom: 200px;
-  text-align: center;
+ 
+  text-align:center;
+  width: auto;
+  
+
 }
 /* Features Section */
  #features {
-  padding: 100px 0; }
+  padding: 100px 0;
+ }
 
 #features i.fa {
   font-size: 38px;
@@ -601,8 +638,26 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
+@media (max-width: 576px) {
+  #menu .navbar-header .navbar-brand img {
+    max-height: 80px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .intro h1 {
+    font-size: 6rem; /* Ajusta el tamaño del texto en pantallas grandes */
+    
+  }
+}
+
+@media (max-width: 767px) {
+  .intro h1 {
+    font-size: 4rem; /* Ajusta el tamaño del texto en pantallas pequeñas */
+  }
+
+  .btn-custom {
+    font-size: 14px;
+    padding: 12px 30px;
   }
 }

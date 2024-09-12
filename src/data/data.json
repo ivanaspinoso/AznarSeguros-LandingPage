@@ -20,64 +20,77 @@
   },
   "Gallery": [
     {
+      "id": "autos",
       "title": "Autos",
-      "largeImage": "img/daleporfa.jpg",
-      "smallImage": "img/largeimagefigma.jpg"
+      "largeImage": "img/gallerylarge/large/5large.jpg",
+      "smallImage": "img/gallerylarge/large/5large.jpg"
+
     },
     {
+      "id": "combinadofamiliar",
       "title": "Combinado familiar",
-      "largeImage": "img/daleporfa.jpg",
-      "smallImage": "img/largeimagefigma.jpg"
+      "largeImage": "img/gallerylarge/large/6large.jpg",
+      "smallImage": "img/gallerylarge/large/6large.jpg"
     },
     {
+      "id": "vida",
       "title": "Vida",
-      "largeImage": "img/daleporfa.jpg",
-      "smallImage": "img/largeimagefigma.jpg"
+      "largeImage": "img/gallerylarge/large/7large.jpg",
+      "smallImage": "img/gallerylarge/large/7large.jpg"
     },
     {
+      "id": "agricola",
       "title": "Agricola",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "largeImage": "img/gallerylarge/large/8large.jpg",
+      "smallImage": "img/gallerylarge/large/8large.jpg"
     },
     {
+      "id": "integralagricola",
       "title": "Integral agrícola",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "largeImage": "img/gallerylarge/large/9large.jpg",
+      "smallImage": "img/gallerylarge/large/9large.jpg"
     },
     {
+      "id": "integralcomercio",
       "title": "Integral de comercio",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "largeImage": "img/gallerylarge/large/10large.jpg",
+      "smallImage": "img/gallerylarge/large/10large.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "id":"maquinasagricolas",
+      "title": "Maquinas Agricolas",
+      "largeImage": "img/gallerylarge/large/11large.jpg",
+      "smallImage": "img/gallerylarge/large/11large.jpg"
     },
     {
+      "id": "pymes",
       "title": "Pymes",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/gallerylarge/large/12large.jpg",
+      "smallImage": "img/gallerylarge/large/12large.jpg"
     },
     {
+      "id": "transporte",
       "title": "Transporte",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/gallerylarge/large/13large.jpg",
+      "smallImage": "img/gallerylarge/large/13large.jpg"
     },
     {
+      "id": "grandesempresas",
       "title": "Grandes empresas",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "largeImage": "img/gallerylarge/large/14large.jpg",
+      "smallImage": "img/gallerylarge/large/14large.jpg"
     },
     {
+      "id": "flotas",
       "title": "Flotas",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "largeImage": "img/gallerylarge/large/15large.jpg",
+      "smallImage": "img/gallerylarge/large/15large.jpg"
     },
     {
+      "id": "caucion",
       "title": "Caución",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/gallerylarge/large/16large.jpg",
+      "smallImage": "img/gallerylarge/large/16large.jpg"
     }
   ],
   "Services": [
@@ -115,7 +128,7 @@
   "Contact": {
     "address": "Rivadavia 1175, Bragado, Buenos Aires",
     "phone": "+54 02342-422206",
-    "email": "info@company.com",
+    "email": "info@aznarseguros.com.ar",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -140,6 +153,39 @@
       "icon": "fa fa-magic",
       "title": "Variedad y Flexibilidad ",
       "text": "Ofrecemos una amplia gama de seguros adaptados a cada necesidad. "
+    }
+  ],
+  "Plans":[
+    {
+      "id": "1",
+      "title": "Cobertura Completa",
+      "largeImage": "/path/to/image1.jpg",
+      "coverage": {
+        "todoRiesgo": [
+          "Daños parciales por accidente con franquicia fija o variable (desde 1% al 10%)",
+          "Robo y/o hurto total y parcial sin franquicia",
+          "Destrucción total y parcial por incendio sin franquicia",
+          "Destrucción total por accidente",
+          "Daños por intento de robo: cobertura a consolas y cerraduras",
+          "Cristales: Cobertura sin tope y sin límite para luneta, parabrisa y vidrios laterales",
+          "Responsabilidad Civil limitada"
+        ],
+        "franquiciaVariable": [
+          "Daños parciales por accidente con franquicia variable del 4% y del 6% de la suma asegurada",
+          "Cobertura de cristales sin tope ni límite",
+          "Daños parciales por granizo sin límite con franquicia"
+        ]
+      },
+      "benefits": [
+        "Reposición del vehículo a valor de 0 Km durante dos años",
+        "Cobertura de daños parciales sin franquicia en caso de robo total",
+        "Reposición de neumáticos por 1 año prorrogable"
+      ],
+      "prevention": [
+        "Conduzca con las luces bajas encendidas durante el día",
+        "Utilice el cinturón de seguridad",
+        "Evite el uso del celular mientras conduce"
+      ]
     }
   ]
 }
