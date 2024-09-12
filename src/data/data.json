@@ -35,8 +35,8 @@
     {
       "id": "vida",
       "title": "Vida",
-      "largeImage": "img/gallerylarge/large/7large.jpg",
-      "smallImage": "img/gallerylarge/large/7large.jpg"
+      "largeImage": "img/gallerylarge/large/17large.jpg",
+      "smallImage": "img/gallerylarge/large/17large.jpg"
     },
     {
       "id": "agricola",
@@ -53,14 +53,14 @@
     {
       "id": "integralcomercio",
       "title": "Integral de comercio",
-      "largeImage": "img/gallerylarge/large/10large.jpg",
-      "smallImage": "img/gallerylarge/large/10large.jpg"
+      "largeImage": "img/gallerylarge/large/11large.jpg",
+      "smallImage": "img/gallerylarge/large/11large.jpg"
     },
     {
       "id":"maquinasagricolas",
       "title": "Maquinas Agricolas",
-      "largeImage": "img/gallerylarge/large/11large.jpg",
-      "smallImage": "img/gallerylarge/large/11large.jpg"
+      "largeImage": "img/gallerylarge/large/10large.jpg",
+      "smallImage": "img/gallerylarge/large/10large.jpg"
     },
     {
       "id": "pymes",
@@ -95,34 +95,24 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-trophy", 
+      "title": "Experiencia",
+      "text": "Más de 20 años en el asesoramiento y producción de seguros."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-lock",  
+      "title": "Confianza",
+      "text": "Ofrecemos un servicio transparente y confiable, avalado por la Superintendencia de Seguros de la Nación."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-phone", 
+      "title": "Comunicación Continua",
+      "text": "Aseguramos una relación cercana y permanente con nuestra comunidad."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",  
+      "title": "Variedad y Flexibilidad",
+      "text": "Ofrecemos una amplia gama de seguros adaptados a cada necesidad."
     }
   ],
   "Contact": {
@@ -135,24 +125,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-trophy", 
       "title": "Experiencia",
       "text": "Más de 20 años en el asesoramiento y producción de seguros."
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-lock",  
       "title": "Confianza",
       "text": "Ofrecemos un servicio transparente y confiable, avalado por la Superintendencia de Seguros de la Nación."
     },
     {
-      "icon": "fa fa-group",
+      "icon": "fa fa-phone", 
       "title": "Comunicación Continua",
       "text": "Aseguramos una relación cercana y permanente con nuestra comunidad."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Variedad y Flexibilidad ",
-      "text": "Ofrecemos una amplia gama de seguros adaptados a cada necesidad. "
+      "icon": "fa fa-cogs",  
+      "title": "Variedad y Flexibilidad",
+      "text": "Ofrecemos una amplia gama de seguros adaptados a cada necesidad."
     }
   ],
   "Plans":[

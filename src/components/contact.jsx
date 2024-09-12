@@ -1,6 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { Link } from 'react-router-dom';  // Asegúrate de importar Link
+
 
 const initialState = {
   name: "",
@@ -152,7 +154,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2024 Aznar Seguros | <a href="#terminos-y-condiciones" >Términos y Condiciones</a>
+            &copy; 2024 Aznar Seguros | <Link to="terminos-y-condiciones" >Términos y Condiciones</Link>
             
           </p>
         </div>
