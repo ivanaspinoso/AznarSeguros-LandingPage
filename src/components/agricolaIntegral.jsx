@@ -109,6 +109,17 @@ const AgricolaIntegral = () => {
               <li>Limitaciones en algunos bienes específicos</li>
               <li>Daños causados con motivo del robo</li>
             </ul>
+            <p style={{ marginBottom: "20px" }}>
+              <strong>Robo/Hurto del contenido de la casa principal</strong>
+            </p>
+            <p style={{ marginBottom: "20px" }}>
+              <strong>Bienes asegurados:</strong> el mobiliario particular que se halle exclusivamente en el interior de la casa principal y que pertenezca al asegurado, sus familiares y huéspedes.
+            </p>
+            <ul style={{ paddingLeft: "20px", listStyle: "disc", marginBottom: "20px" }}>
+              <li>Pérdidas por robo y/o hurto</li>
+              <li>Limitación hasta un 20% de la suma asegurada para ciertos bienes</li>
+              <li>Daños causados con motivo del robo o su tentativa</li>
+            </ul>
           </section>
 
           {/* Valores en Caja */}
@@ -144,6 +155,9 @@ const AgricolaIntegral = () => {
             <p style={{ marginBottom: "20px" }}>
               <strong>Bienes asegurados:</strong> TV, audio, video y computadoras. Equipos electrónicos de oficina y de análisis.
             </p>
+            <p style={{ marginBottom: "20px" }}>
+              <strong>Coberturas:</strong> pérdidas o daños por incendio, robo y/o hurto, o accidente de los objetos asegurados que se encuentren en la casa principal y/o en la dependencia expresamente indicada.
+            </p>
           </section>
 
           {/* Responsabilidad civil */}
@@ -163,10 +177,9 @@ const AgricolaIntegral = () => {
               <li>Responsabilidad civil por operación de maquinaria</li>
               <li>Escape de animales sublimitado al 50% del límite de Responsabilidad civil comprensiva</li>
               <li>Suministro de alimentos a invitados</li>
-              <li>Uso de armas de fuego, con modalidad en exceso de $100.000 para el caso donde el servicio de vigilancia lo realicen empresas contratadas para tal fin, caso contrario no aplica dicho exceso</li>
+              <li>Uso de armas de fuego, con modalidad en exceso de $100.000 para el caso donde el servicio de vigilancia lo realicen empresas contratadas para tal fin</li>
               <li>Guarda de vehículos a título no oneroso</li>
               <li>Transporte de bienes, sublimitado al 35% del límite asegurado. Excluye animales</li>
-              <li>Escape de animales</li>
             </ul>
             <p style={{ marginBottom: "20px" }}>
               No se considerarán terceros a:
@@ -193,6 +206,45 @@ const AgricolaIntegral = () => {
             <p style={{ marginBottom: "20px" }}>
               <strong>Coberturas:</strong> pérdidas o daños a maquinaria agrícola en la explotación.
             </p>
+          </section>
+
+          {/* Daños por agua al contenido */}
+          <section style={{ marginBottom: "30px" }}>
+            <h2
+              style={{
+                fontSize: "2rem",
+                fontWeight: "600",
+                marginBottom: "20px",
+                color: "#a94442",
+              }}
+            >
+              Daños por agua al contenido
+            </h2>
+            <p style={{ marginBottom: "20px" }}>
+              Se cubren las pérdidas o daños causados a los bienes objeto del seguro por filtraciones, derrames, desbordes o escapes de agua a raíz de falla o deficiencia en la provisión de energía.
+            </p>
+            <p style={{ marginBottom: "20px" }}>
+              Para Silos y Galpones aplicará un deducible por acontecimiento.
+            </p>
+            <p style={{ marginBottom: "20px" }}>Modalidad de la prestación: a primer riesgo absoluto.</p>
+          </section>
+
+          {/* Cristales */}
+          <section style={{ marginBottom: "30px" }}>
+            <h2
+              style={{
+                fontSize: "2rem",
+                fontWeight: "600",
+                marginBottom: "20px",
+                color: "#a94442",
+              }}
+            >
+              Cristales
+            </h2>
+            <p style={{ marginBottom: "20px" }}>
+              Se cubren los daños que afectaren cristales, vidrios, espejos y demás piezas vítreas o similares, instaladas en posición vertical, como consecuencia de su rotura o rajadura, incluyendo los gastos normales de colocación, por el valor que corresponda a cada pieza y hasta el límite asegurado para esta cobertura, siempre que estén instaladas en el lugar especificado para cada una.
+            </p>
+            <p style={{ marginBottom: "20px" }}>Modalidad de la prestación: a primer riesgo absoluto.</p>
           </section>
 
           <div style={{ textAlign: "center", marginTop: "5rem" }}>
