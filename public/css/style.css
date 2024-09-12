@@ -225,7 +225,7 @@ a:focus,
 
 .intro-text {
   text-align: center;
-  color: white; /* Asegúrate de que el texto sea visible sobre el fondo */
+  color: white;
 }
 #menu .navbar-header {
   display: flex;

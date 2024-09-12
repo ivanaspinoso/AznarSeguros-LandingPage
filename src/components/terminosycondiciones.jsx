@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigation } from '../components/navigation'; // Asegúrate de que tengas el componente Navigation disponible
+import { Navigation } from '../components/navigation'; 
 
 const TerminosYCondiciones = () => {
   return (

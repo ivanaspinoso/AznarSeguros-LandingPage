@@ -1,9 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AutosService from '../components/autosService';  // Asegúrate de que esté correctamente importado
+import AutosService from '../components/autosService'; 
 import CombinadoFamiliar from '../components/combinadoFamiliar';
 import VidaService from '../components/VidaService';
-import AgricolaService from './agricolaService';  // Asegúrate de que esté correctamente importado
+import AgricolaService from './agricolaService';  
 import AgricolaIntegral from './agricolaIntegral';
 import IntegralComercio from './integralComercio';
 import MaquinasAgricolas from './maquinasAgricolas';
@@ -12,9 +12,15 @@ import Transporte from './transporte';
 import GrandesEmpresas from './grandesEmpresas';
 import Flotas from './flotas';
 import Caucion from './caucion';
+import { useEffect } from 'react';
+
 
 const ServiceDetail = () => {
   const { id } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, [id]);
 
   if (id === 'autos') {
     return <AutosService />;

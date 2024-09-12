@@ -1,31 +1,40 @@
 import React from "react";
-import { Navigation } from "../components/navigation"; // Asegúrate de que tengas el componente Navigation disponible
+import { Navigation } from "../components/navigation";
 
 const VidaService = () => {
   return (
     <>
       <Navigation />
       <div id="vida-service" style={{ backgroundColor: "#f6f6f6", padding: "50px 0", marginTop: "80px", minHeight: "100vh" }}>
-        {/* <div style={{ display: "flex", justifyContent: "center", marginBottom: "30px" }}>
-          <img
-            src="path_to_image.jpg"
-            alt="Seguros de Vida Individual"
-            style={{
-              width: "100%",
-              maxWidth: "500px",
-              borderRadius: "10px",
-              boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-            }}
-          />
-        </div> */}
+       
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "30px" }}>
             <div style={{ flex: "1", minWidth: "300px" }}>
-              <h2 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "20px", textAlign: "center", color: "#333" }}>
+              <h1 style={{fontSize: "3rem",
+              fontWeight: "bold",
+              marginBottom: "30px",
+              textAlign: "center",
+              color: "#333",
+              textTransform: "uppercase",
+              letterSpacing: "2px",
+              position: "relative",
+              paddingBottom: "10px", }}>
                 Seguros de Vida Individual
-              </h2>
+                <span
+              style={{
+                content: "''",
+                position: "absolute",
+                width: "100px",
+                height: "4px",
+                backgroundColor: "#a94442",
+                bottom: "0",
+                left: "50%",
+                transform: "translateX(-50%)",
+                borderRadius: "2px",
+              }}
+            ></span>
+              </h1>
 
-              {/* Seguro de vida con Ahorro */}
               <div style={{ marginBottom: "30px" }}>
                 <h3 style={{ fontSize: "1.75rem", fontWeight: "600", marginBottom: "10px", color: "#a94442" }}>Seguro de vida con Ahorro</h3>
                 <p>
@@ -33,7 +42,6 @@ const VidaService = () => {
                 </p>
               </div>
 
-              {/* Seguro de vida puro */}
               <div style={{ marginBottom: "30px" }}>
                 <h3 style={{ fontSize: "1.75rem", fontWeight: "600", marginBottom: "10px", color: "#a94442" }}>Seguro de vida puro</h3>
                 <p>
@@ -41,7 +49,6 @@ const VidaService = () => {
                 </p>
               </div>
 
-              {/* Seguro de vida para dos personas */}
               <div style={{ marginBottom: "30px" }}>
                 <h3 style={{ fontSize: "1.75rem", fontWeight: "600", marginBottom: "10px", color: "#a94442" }}>Seguro de vida para dos personas</h3>
                 <p>
@@ -49,7 +56,6 @@ const VidaService = () => {
                 </p>
               </div>
 
-              {/* Seguro de vida para varias personas */}
               <div style={{ marginBottom: "30px" }}>
                 <h3 style={{ fontSize: "1.75rem", fontWeight: "600", marginBottom: "10px", color: "#a94442" }}>Seguro de vida para varias personas</h3>
                 <p>
@@ -69,7 +75,6 @@ const VidaService = () => {
                 </p>
               </div>
 
-              {/* Seguros de vida colectivos */}
               <div style={{ marginBottom: "30px" }}>
                 <h3 style={{ fontSize: "1.75rem", fontWeight: "600", marginBottom: "10px", color: "#a94442" }}>Seguros de vida Colectivos empresas</h3>
                 <ul style={{ paddingLeft: "20px", listStyle: "disc" }}>
