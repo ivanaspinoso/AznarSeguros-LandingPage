@@ -635,7 +635,14 @@ label {
 @media (max-width: 576px) {
   #menu .navbar-header .navbar-brand img {
     max-height: 80px; 
-    
+  
+  }
+}
+
+@media (max-width: 576px) {
+  #menu .navbar-brand  {
+    position: absolute;
+    left: 30%;
   }
 }
 
