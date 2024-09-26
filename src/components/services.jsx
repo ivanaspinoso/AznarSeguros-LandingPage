@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Services = (props) => {
   return (
-    <div id="services" className="text-center">
+    <div id="services" className="text-center " style={{ backgroundColor: '#f6f6f6' }}>
       <div className="container">
         <div className="section-title">
           <h2>Nuestros servicios</h2>

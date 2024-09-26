@@ -1,10 +1,11 @@
 {
   "Header": {
-    "title": "Confianza y Protección:Tu aliado en seguros en Bragado",
+    "title": "Confianza y Protección:  Tu aliado en seguros",
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Empresa dedicada desde el año 1999 al asesoramiento y produccion de seguros. Esta ubicada en el radio céntrico de la ciudad de Bragado, provincia de Buenos Aires.A cargo del Productor de Seguros Andrés Vicente Aznar, Matricula 54073 de la superintendencia de Seguros de la Nacion.Es una empresa muy conocida en la Ciudad realizando publicidad en los medios de comunicación locales ininterrumpidamente desde el inicio de sus actividades profesionales, contando también con esta página Web que le permitirá a usted conocer nuestra oferta en todo tipo de seguros. Si usted quiere contratar un seguro contáctenos y contara con esta página como una importante guia en la gran variedad de Seguros existentes para todas las necesidades.",
+    "paragraph": "Empresa dedicada desde el año 1999 al asesoramiento y produccion de seguros. Esta ubicada en el radio céntrico de la ciudad de Bragado, provincia de Buenos Aires.A cargo del Productor de Seguros Andrés Vicente Aznar, Matricula 54073 de la superintendencia de Seguros de la Nacion.Es una empresa muy conocida en la Ciudad realizando publicidad en los medios de comunicación locales ininterrumpidamente desde el inicio de sus actividades profesionales, contando también con esta página Web que le permitirá a usted conocer nuestra oferta en todo tipo de seguros. Si usted quiere contratar un seguro contáctenos y contara con esta página como una importante guia en la gran variedad de Seguros existentes para todas las necesidades. ",
+    "subtitle":"Hector Edgardo Hernández, Productor Asesor de Seguros , Matricula 89957 ",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -22,75 +23,62 @@
     {
       "id": "autos",
       "title": "Autos",
-      "largeImage": "img/gallerylarge/large/5large.jpg",
-      "smallImage": "img/gallerylarge/large/5large.jpg"
-
+      "image": "img/gallerylarge/large/5large.jpg"
     },
     {
       "id": "combinadofamiliar",
       "title": "Combinado familiar",
-      "largeImage": "img/gallerylarge/large/6large.jpg",
-      "smallImage": "img/gallerylarge/large/6large.jpg"
+      "image": "img/gallerylarge/large/6large.jpg"
     },
     {
       "id": "vida",
       "title": "Vida",
-      "largeImage": "img/gallerylarge/large/17large.jpg",
-      "smallImage": "img/gallerylarge/large/17large.jpg"
+      "image": "img/gallerylarge/large/17large.jpg"
     },
     {
       "id": "agricola",
       "title": "Agricola",
-      "largeImage": "img/gallerylarge/large/8large.jpg",
-      "smallImage": "img/gallerylarge/large/8large.jpg"
+      "image": "img/gallerylarge/large/8large.jpg"
     },
     {
       "id": "integralagricola",
       "title": "Integral agrícola",
-      "largeImage": "img/gallerylarge/large/9large.jpg",
-      "smallImage": "img/gallerylarge/large/9large.jpg"
+      "image": "img/gallerylarge/large/9large.jpg"
     },
     {
       "id": "integralcomercio",
       "title": "Integral de comercio",
-      "largeImage": "img/gallerylarge/large/11large.jpg",
-      "smallImage": "img/gallerylarge/large/11large.jpg"
+      "image": "img/gallerylarge/large/11large.jpg"
     },
     {
       "id":"maquinasagricolas",
       "title": "Maquinas Agricolas",
-      "largeImage": "img/gallerylarge/large/10large.jpg",
-      "smallImage": "img/gallerylarge/large/10large.jpg"
+      "image": "img/gallerylarge/large/10large.jpg"
     },
     {
       "id": "pymes",
       "title": "Pymes",
-      "largeImage": "img/gallerylarge/large/12large.jpg",
-      "smallImage": "img/gallerylarge/large/12large.jpg"
+      "image": "img/gallerylarge/large/12large.jpg"
     },
     {
       "id": "transporte",
       "title": "Transporte",
-      "largeImage": "img/gallerylarge/large/13large.jpg",
-      "smallImage": "img/gallerylarge/large/13large.jpg"
+      "image": "img/gallerylarge/large/13large.jpg"
     },
     {
       "id": "grandesempresas",
       "title": "Grandes empresas",
-      "largeImage": "img/gallerylarge/large/14large.jpg",
-      "smallImage": "img/gallerylarge/large/14large.jpg"
+      "image": "img/gallerylarge/large/14large.jpg"
     },
     {
       "id": "flotas",
       "title": "Flotas",
-      "largeImage": "img/gallerylarge/large/15large.jpg",
-      "smallImage": "img/gallerylarge/large/15large.jpg"
+      "image": "img/gallerylarge/large/15large.jpg"
     },
     {
       "id": "caucion",
       "title": "Caución",
-      "largeImage": "img/gallerylarge/large/16large.jpg",
-      "smallImage": "img/gallerylarge/large/16large.jpg"
+      "image": "img/gallerylarge/large/16large.jpg"
     }
   ],
   "Services": [
@@ -118,10 +106,7 @@
   "Contact": {
     "address": "Rivadavia 1175, Bragado, Buenos Aires",
     "phone": "+54 02342-422206",
-    "email": "info@aznarseguros.com.ar",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "email": "info@aznarseguros.com.ar"
   },
   "Features": [
     {
@@ -177,5 +162,25 @@
         "Evite el uso del celular mientras conduce"
       ]
     }
-  ]
+  ],
+  "InsuranceSlider": {
+    "companies": [
+      {
+        "logo": "img/gallery/sancorSeguros.jpg",
+        "name": "Compañía 1"
+      },
+      {
+        "logo": "img/gallery/art-color.jpg",
+        "name": "Compañía 2"
+      },
+      {
+        "logo": "img/gallery/allianz-logo.jpg",
+        "name": "Compañía 3"
+      },
+      {
+        "logo": "img/gallery/zurich-logo.jpg",
+        "name": "Compañía 4"
+      }
+    ]
+  }
 }

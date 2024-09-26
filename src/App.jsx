@@ -10,6 +10,7 @@ import JsonData from "./data/data.json";
 import "./App.css";
 import ServiceDetail from "./components/serviceDetail"; 
 import TerminosYCondiciones from "./components/terminosycondiciones";
+import {InsuranceSlider} from "./components/insuranceSlider";
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
@@ -27,6 +28,7 @@ const App = () => {
           <Header data={landingPageData.Header} />
           <Features data={landingPageData.Features} />
           <About data={landingPageData.About} />
+         <InsuranceSlider data={landingPageData.InsuranceSlider} />  
           <Gallery data={landingPageData.Gallery} />
           <Contact data={landingPageData.Contact} />
         </div>
