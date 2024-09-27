@@ -81,7 +81,7 @@ export const InsuranceSlider = (props) => {
   };
 
   return (
-    <div id="insurance-slider" style={{ padding: "150px 0", backgroundColor: "#fff", textAlign: "center" }}>
+    <div id="insurance-slider" style={{ padding: "120px 0", backgroundColor: "#fff", textAlign: "center" }}>
       <style>
         {`
           .slick-slide {
@@ -90,10 +90,7 @@ export const InsuranceSlider = (props) => {
         `}
       </style>
       <div className="container" style={{ maxWidth: "1200px", margin: "0 auto" }}>
-      <div className="section-title">
-          <h2>Empresas con las que trabajamos</h2>
-     
-        </div>
+      
         <Slider {...settings}>
           {props.data && props.data.companies && props.data.companies.length > 0
             ? props.data.companies.map((company, index) => (
