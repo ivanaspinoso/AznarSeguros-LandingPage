@@ -178,6 +178,18 @@
         "name": "Compañía 3"
       },
       {
+        "logo": "img/gallery/provinciaSeguros.png",
+        "name": "Compañía 4"
+      },
+      {
+        "logo": "img/gallery/galeno.svg",
+        "name": "Compañía 4"
+      },
+      {
+        "logo": "img/gallery/provincia.art.svg",
+        "name": "Compañía 4"
+      },
+      {
         "logo": "img/gallery/zurich-logo.jpg",
         "name": "Compañía 4"
       }
