@@ -627,7 +627,6 @@ label {
   color: #608dfd;
   background: #fff;
 }
-/* Footer Section*/
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
@@ -643,14 +642,13 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-/* Para pantallas de hasta 576px (teléfonos pequeños) */
 @media (max-width: 576px) {
   .intro h1 {
-    font-size: 3rem; /* Tamaño de fuente más pequeño para pantallas muy pequeñas */
+    font-size: 3rem; 
   }
 
   #menu .navbar-header .navbar-brand img {
-    max-height: 80px; /* Ajusta el logo para pantallas pequeñas */
+    max-height: 80px; 
     position: relative;
     bottom: 50%;
     left: 13%;
@@ -662,18 +660,17 @@ label {
   }
 
   #about img {
-    width: 100%; /* Ajusta la imagen para que se ajuste al contenedor */
+    width: 100%; 
   }
 }
 
-/* Para pantallas entre 577px y 768px (teléfonos medianos y tabletas pequeñas) */
 @media (min-width: 577px) and (max-width: 768px) {
   .intro h1 {
-    font-size: 4rem; /* Tamaño de fuente ajustado para pantallas medianas */
+    font-size: 4rem; 
   }
 
   #menu .navbar-header .navbar-brand img {
-    max-height: 80px; /* Ajusta el logo para pantallas medianas */
+    max-height: 80px; 
   }
 
   .btn-custom {
@@ -682,18 +679,17 @@ label {
   }
 
   #about img {
-    width: 100%; /* Ajusta la imagen para pantallas medianas */
+    width: 100%;
   }
 }
 
-/* Para pantallas de entre 769px y 992px (tabletas grandes y laptops pequeñas) */
 @media (min-width: 769px) and (max-width: 992px) {
   .intro h1 {
-    font-size: 5rem; /* Tamaño de fuente ajustado para pantallas grandes */
+    font-size: 5rem; 
   }
 
   #menu .navbar-header .navbar-brand img {
-    max-height: 90px; /* Ajusta el logo para pantallas grandes */
+    max-height: 90px; 
   }
 
   .btn-custom {
@@ -702,14 +698,13 @@ label {
   }
 }
 
-/* Para pantallas de 993px en adelante (pantallas grandes) */
 @media (min-width: 993px) {
   .intro h1 {
-    font-size: 6rem; /* Tamaño de fuente para pantallas muy grandes */
+    font-size: 6rem; 
   }
 
   #menu .navbar-header .navbar-brand img {
-    max-height: 120px; /* Ajusta el logo para pantallas muy grandes */
+    max-height: 120px; 
     margin-top: -60px;
   }
 }
@@ -719,3 +714,15 @@ label {
     font-size: 14px;
     padding: 12px 30px;
   }
+
+@media (max-width: 768px) {
+  .producer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .producer-container > div {
+    flex-basis: 100%;
+    margin-top: 10px;
+  }
+}

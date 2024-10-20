@@ -14,7 +14,7 @@ export const About = (props) => {
   <h2>Nuestra empresa</h2>
   <p>{props.data ? props.data.paragraph : "loading..."}</p>
   
-  <div style={{ display: "flex", justifyContent: "space-between", backgroundColor: "#fff", padding: "20px", borderRadius: "5px", marginTop: "10px" }}>
+  <div className="producer-container" style={{ display: "flex", justifyContent: "space-between", backgroundColor: "#fff", padding: "20px", borderRadius: "5px", marginTop: "10px" }}>
     <div style={{ flexBasis: "45%", textAlign: "left" }}>
       <p style={{ fontSize: "18px", color: "#DB4F4F", fontWeight: "bold", marginBottom: "5px" }}>
         <strong>Productores:</strong>
